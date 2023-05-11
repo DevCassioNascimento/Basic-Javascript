@@ -16,14 +16,47 @@ const person = {
         age: 34,
         sexo: "masculino", 
         address: { 
-            rua: "rua da frente",
+            rua: "rua *** ******** ***",
             numero: 100000,
-            bairro: "novoBairro",
+            bairro: "**** ********",
             estado: "Sao Paulo",
         },   
 }
 
 console.log (`${person.name} tem ${person.age} anos e mora no estado de ${person.address.estado}`);
+
+// Array
+console.log('array');
+
+const convidados = ["Pedro" , "Tiago" , "João" , "Lucas" , "Simão"]
+console.log( 'convidado presente' , convidados [1]);
+console.log('convidado que desmarcou' , convidados[4]);
+console.log('convidado a caminho' , convidados[0]); 
+const date = new Date();
+
+// Comparação 
+console.log ('comparação');
+
+1 > 2; 
+1 == 1; 
+3 != 4;
+
+var idade = 14; 
+var acesso = 18;
+var libera = idade > acesso ;
+console.log(libera);
+
+// comparadores logicos 
+ console.log ('Comparadores Logicos'); 
+ console.log(false || false); // false
+ console.log(true || false); // true 
+ console.log(true || true); // true 
+
+
+
+
+
+
 
 
 
