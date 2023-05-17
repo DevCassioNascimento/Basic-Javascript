@@ -51,6 +51,35 @@ console.log(libera);
  console.log(false || false); // false
  console.log(true || false); // true 
  console.log(true || true); // true 
+ console.log(false && false); // false
+ console.log(true && false); // false
+ console.log(true && true); // true 
+
+!false //true
+!true // false
+!(10>20) 
+
+// desvio de fluxo if (se)
+
+console.log('inicio do programa');
+
+if (1 < 2 && 3 > 2 ) {
+console.log('desvio de fluxo');
+}
+
+console.log('fim do programa');
+
+// desvio de fluxo else (se nao)
+
+if (1 > 2) {
+console.log('desvio 1')
+} else {
+console.log('desvio 2')   
+}
+
+
+
+
 
 
 
