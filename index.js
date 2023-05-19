@@ -78,6 +78,19 @@ console.log('desvio 2')
 }
 
 
+// desvio else if 
+
+const pagamento = 150 
+const deposito = 100
+
+if (pagamento < deposito){
+    console.log ('debito pago')
+} else if (pagamento > deposito) {
+    console.log (' debito parcialmente pago')
+} else {
+    console.log('debito não foi pago')
+}
+
 
 
 
