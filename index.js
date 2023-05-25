@@ -91,12 +91,43 @@ if (pagamento < deposito){
     console.log('debito não foi pago')
 }
 
+// ternario 
+
+let texto1 = 10
+let texto2 = 9
+let texto3 = 20
+//  condição                      se                      se não
+texto1 > texto2 ? console.log('verdade') : console.log('mentira')
+
+// try-catch
+/*try { 
+    console.log('consultando banco de dados');
+    throw 'erro 1032 ao conectar com o banco de dados'
+    
+} catch (error) {
+ alert('erro de conecção, por favor entrar em contato com o suporte');
+console.error(erro);   
+ }*/
 
 
 
+// while = enquanto a condição for verdadeiro execute .... 
+let contador = 1
+
+while (contador < 7 ) {
+    console.log(`executando ${contador}`); 
+    contador++
+}
 
 
+// for 0f
+let participantes = ['Pedro', 'Paulo', 'João', 'Judas', 'Timoteo']
 
+for (const nome of participantes) {
+    console.log(nome);
+}
+
+// for in 
 
 
 
